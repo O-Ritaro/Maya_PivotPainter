@@ -1,30 +1,34 @@
 ﻿# Maya_PivotPainter
-UnrealEingine4 Maya version PivotPainter1  
 
+## Description
 This is a Maya Version of UnrealEngine4 Max PivotPainter1.  
+![ri_maya_pivot_painter_v4 2](https://user-images.githubusercontent.com/29208747/46820973-8431b600-cdc2-11e8-81a9-49f264f77a0b.PNG)
 
+## Requirement
 
-## Install
+Above Maya 2016 
 
-1,
-Drag&Drop ri_maya_pivot_painter.py into MayaScriptEditor's Python Window  
-and add "maya_pivot_painter_menu()" in the last row,  
-than select all to make Shelf button (Python).   
-
-or 
-
-2,
-Copy ri_maya_pivot_painter.py to Maya's Pathed script ot python directory  
-and call "maya_pivot_painter_menu()" to start up.  
-
-
-## Infomation
+## Infomation about Python Script
 
 This tool is scripted as like the original Max tool as posible, to know what it's doing.  
 Therefore, optimization is lowest in the Max tool part.  
 Other parts are using OpenMaya to calculate vectors, specially thanks to the knowledge of  
 buildMatrix and buildRotation.  
 
+
+## Install
+
+1,  
+Drag&Drop ri_maya_pivot_painter.py into MayaScriptEditor's Python Window and add   
+    "maya_pivot_painter_menu()" 
+in the last row, than select all to make Shelf button (Python).   
+
+or 
+
+2,  
+Copy ri_maya_pivot_painter.py to Maya's Pathed script ot python directory and call   
+    "maya_pivot_painter_menu()"  
+to start up.  
 
 ## Usage
 
@@ -99,3 +103,9 @@ buildMatrix and buildRotation.
 > Maya Default UVset name "map1" will be renamed to "UVChannel_1".  
 > Do care about UVset name when using this tool.  
 
+
+## Licence
+[MIT] (https://github.com/O-Ritaro/Maya_PivotPainter/blob/master/LICENSE)
+
+## Author
+Ritaro (https://github.com/O-Ritaro)
